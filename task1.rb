@@ -5,6 +5,6 @@ height = gets.chomp.to_i
 weight = height - 110
 if weight <= 0
   puts "#{name}, твой вес оптимальный"
-else puts "#{name}, твой идеальный вес #{weight}"
+else
+  puts "#{name}, твой идеальный вес #{weight}"
 end
-
