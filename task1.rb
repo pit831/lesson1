@@ -6,5 +6,5 @@ weight = height - 110
 if weight <= 0
   puts "#{name}, твой вес оптимальный"
 else
-  puts "#{name}, твой идеальный вес #{weight}"
+  puts "#{name}, ваш идеальный вес #{weight}"
 end
